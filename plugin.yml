@@ -1,0 +1,10 @@
+name: WorldManager
+author: ImperaZim
+version: 1.0.1
+
+api: [4.0.0]
+main: WorldManager\Loader
+
+permissions:
+  world.manager:
+    default: op 
