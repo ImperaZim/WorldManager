@@ -67,6 +67,7 @@ class WorldManager extends Command {
     }
     if ($args[0] == "chat") {
      if (isset($args[1])) {
+      $bool = ""; 
       if ($args[1] == "unlock") {
        $bool = true;
       }
