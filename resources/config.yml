@@ -1,0 +1,37 @@
+
+plugin.prefix: "§l§bWORLD§r"
+
+# COMMAND WORLDMANAGER
+command.help: "{prefix} §7Use /worldmanager (lock, unlock, chat, combat, list)"
+command.nopermission: "{prefix} §7Você não tem permissão para usar este comando!"
+
+# DOMMAND WM LIST
+command.list.message: "{prefix} §7Lista de mundos e configurações:"
+
+# DOMMAND WM CHAT
+command.chat.help: "{prefix} §7Use /worldmanager chat (lock, unlock)"
+command.chat.noexist: "{prefix} §7Você usou um valor inexistente!"
+command.chat.unlock.sucess: "{prefix} §7O chat do mundo §b{world}§7 foi ativado! Todos os player podem mandar mensagem desde mundo!"
+command.chat.unlock.has: "{prefix} §7O chat do mundo §b{world}§7 já está ativado!"
+command.chat.lock.sucess: "{prefix} §7O chat do mundo §b{world}§7 foi desativado! Nenhum player pode mandar mensagem desde mundo!"
+command.chat.lock.has: "{prefix} §7O chat do mundo §b{world}§7 já está desativado!"
+command.chat.lock.message: "{prefix} §7Você não tem permissão para mandar mensagens deste mundo!"
+
+# DOMMAND WM LOCK
+command.lock.ha: "{prefix} §7O mundo §b{world}§7 já está bloqueado!"
+command.lock.sucess: "{prefix} §7O mundo §b{world}§7 foi bloqueado! Nenhum player sem cargo operador podera quebrar ou botar blocos!"
+command.lock.place.message: "{prefix} §7Você não tem permissão para botar blocos nesse mundo!"
+command.lock.break.message: "{prefix} §7Você não tem permissão para quebrar blocos nesse mundo!"
+
+# DOMMAND WM UNLOCK
+command.unlock.has: "{prefix} §7O mundo §b{world}§7 já está desbloqueado!"
+command.unlock.sucess: "{prefix} §7O mundo §b{world}§7 foi desbloqueado! Todos os player podem quebrar ou botar blocos!" 
+
+# DOMMAND WM COMBAT
+command.combat.help: "{prefix} §7Use /worldmanager combat (on, off)"
+command.combat.noexist: "{prefix} §7Você usou um valor inexistente!"
+command.combat.enable.sucess: "{prefix} §7O combate no mundo §b{world}§7 foi ativado! Todos os player podem se bater e tomar dano!"
+command.combat.enable.has: "{prefix} §7O combate no mundo §b{world}§7 já está ativado!"
+command.combat.disable.sucess: "{prefix} §7O combate no mundo §b{world}§7 foi desativado! Nenhum player pode bater e tomar dano!"
+command.combat.disable.has: "{prefix} §7 Ocombate no mundo §b{world}§7 já está desativado!"
+command.combat.alert.message: "§cO combate está desativado nesse mundo!"
