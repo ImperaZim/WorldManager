@@ -8,7 +8,10 @@ use pocketmine\utils\Config;
 class WorldLockEvent {
  
  public function __construct($user, $world) {
-  $player = $user;
+  $this->execute($user, $world);
+ } 
+ 
+ public function execute($player, $world) {
   $plugin = Loader::getInstance();
   $server = $plugin->getServer();
   $data = $plugin->getDataFolder();
