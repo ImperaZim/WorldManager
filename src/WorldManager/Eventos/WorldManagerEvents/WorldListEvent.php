@@ -13,6 +13,7 @@ class WorldListEvent {
   $server = $plugin->getServer();
   $data = $plugin->getDataFolder();
   $config = new Config($data . "worlds.yml");
+  $world = $player->getWorld()->getDisplayName();  
   $worlds = $config->getAll(); 
   
   $player->sendMessage($plugin->getProcessedTags($player, $world, $plugin->getConfig()->get("command.list.message"))); 
