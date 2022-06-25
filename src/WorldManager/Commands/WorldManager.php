@@ -46,6 +46,7 @@ class WorldManager extends Command {
     }
     if ($args[0] == "combat") {
      if (isset($args[1])) {
+      $bool = "";
       if ($args[1] == "on") {
        $bool = true;
       }
