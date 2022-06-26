@@ -26,6 +26,8 @@ class WorldManager extends Command {
   $player = $server->getPlayerExact($player->getName());
   $op = $server->isOp($player->getName());
   $permission = $player->HasPermission("world.manager");
+  
+  $plugin->getWorldEvents()->reload();
 
   if ($player instanceof Player) {
    $world = $player->getWorld()->getDisplayName();
